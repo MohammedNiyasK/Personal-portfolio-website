@@ -68,8 +68,9 @@ target.classList.add('active-link')
 
 // Light Dark Theme //
 function myFunction() {
-  var element = document.body;
+  var element = document.body
   element.classList.toggle("light-theme");
+  console.log(element)
 }
 
 //  Scroll reveal Animation
