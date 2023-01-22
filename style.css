@@ -768,6 +768,10 @@ padding: 2rem 0 6rem;
   font-size: 1rem;
   display: inline-flex;
 }
+
+.footer_social-link:hover{
+  background-color: white;
+}
 .footer-copy{
   display: block;
   margin-top: 4.5rem;
