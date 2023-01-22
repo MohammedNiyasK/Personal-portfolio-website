@@ -625,6 +625,9 @@ body.light-theme{
 .work-img{
   border-radius: 1rem;
   margin-bottom: .75rem;
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
 }
 .work-title{
   font-size: var(--normal-font-size);
@@ -769,9 +772,6 @@ padding: 2rem 0 6rem;
   display: inline-flex;
 }
 
-.footer_social-link:hover{
-  background-color: white;
-}
 .footer-copy{
   display: block;
   margin-top: 4.5rem;
